@@ -1,0 +1,21 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining all routes for the clinic app including dashboard, patients, appointments, and medical records pages with authentication and profile setup flow using a properly named RootComponent to satisfy React hooks rules.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including patient management, appointments, medical records, and user profiles with proper state invalidation and error handling.",
+  "frontend/src/components/Layout.tsx": "Main layout component with updated header branding displaying \"Mannosalva Clinic App\", navigation menu, logout functionality, and footer with consistent application naming.",
+  "frontend/src/components/ProfileSetup.tsx": "User profile setup modal component that prompts authenticated users to enter their name, role, and specialty (for doctors) on first login.",
+  "frontend/src/pages/LoginPage.tsx": "Landing page with Internet Identity authentication featuring updated \"Mannosalva Clinic App\" branding in the login card.",
+  "frontend/src/pages/Dashboard.tsx": "Dashboard page displaying clinic statistics, quick action cards for common tasks, and upcoming appointments with medical-themed design and generated icons.",
+  "frontend/src/pages/Patients.tsx": "Patient list page with search functionality, patient cards displaying contact information, and navigation to patient details using TanStack Router params prop.",
+  "frontend/src/pages/RegisterPatient.tsx": "Patient registration form with fields for name, contact info, and medical record number with auto-generation capability.",
+  "frontend/src/pages/PatientDetail.tsx": "Individual patient detail page showing patient information, appointments, and recent visit notes with navigation to medical records using TanStack Router params prop.",
+  "frontend/src/pages/Appointments.tsx": "Appointments management page with calendar view and upcoming appointments list using custom components.",
+  "frontend/src/pages/ScheduleAppointment.tsx": "Appointment scheduling form with patient selection, doctor name, date/time picker, and appointment type selector.",
+  "frontend/src/pages/MedicalRecords.tsx": "Medical records page displaying chronologically sorted visit notes for a specific patient with add note functionality and proper TanStack Router navigation.",
+  "frontend/src/pages/AddVisitNote.tsx": "Visit note creation form with patient and appointment selection, diagnosis, clinical notes, and dynamic prescription list management.",
+  "frontend/src/components/AppointmentCalendar.tsx": "Monthly calendar component displaying appointments with color-coded appointment types and navigation between months, using React.ReactElement type annotation for proper TypeScript compatibility.",
+  "frontend/src/components/AppointmentList.tsx": "List component showing upcoming appointments with patient details, date/time, and cancel functionality.",
+  "frontend/src/components/VisitNoteCard.tsx": "Card component displaying individual visit notes with diagnosis, clinical notes, prescriptions, and timestamps in a professional medical format.",
+  "frontend/src/index.css": "Global styles with medical-themed OKLCH color system featuring calming green palette, professional typography, and comprehensive light/dark mode support.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with medical color palette, professional fonts, custom shadows, and healthcare-appropriate design tokens.",
+  "frontend/index.html": "HTML entry point with updated page title \"Mannosalva Clinic App\" displayed in the browser tab."
+}

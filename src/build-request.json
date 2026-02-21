@@ -1,0 +1,86 @@
+{
+  "kind": "build_request",
+  "title": "Update application name to Mannosalva Clinic App",
+  "projectName": "Mannosalva Clinic App",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "text": "Update the application title in frontend/index.html to display 'Mannosalva Clinic App' in the browser tab",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Add name of app \" mannosalva clinic app\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "The browser tab displays 'Mannosalva Clinic App' as the page title",
+        "The title tag in index.html reflects the new application name"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Update the application branding in Layout.tsx header to display 'Mannosalva Clinic App' as the main application name",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Add name of app \" mannosalva clinic app\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "The header navigation displays 'Mannosalva Clinic App' prominently",
+        "The branding is visible on all pages that use the Layout component"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Update the login page branding in LoginPage.tsx to show 'Mannosalva Clinic App' as the application name",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Add name of app \" mannosalva clinic app\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "The login page displays 'Mannosalva Clinic App' in the branded card",
+        "The application name is clearly visible before authentication"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Update the footer branding in Layout.tsx to reference 'Mannosalva Clinic App' consistently",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Add name of app \" mannosalva clinic app\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "The footer displays 'Mannosalva Clinic App' in the branding section",
+        "The application name is consistent across all footer instances"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Changing the backend package name or canister configuration",
+    "Modifying the domain name or deployment URL",
+    "Altering any functionality or features of the application"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "A clinic management application",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-patient-registration-system-that-captures-patient-name-contact-information-and-medical-record-number",
+      "title": "Create a patient registration system that captures patient name, contact information, and medical record number",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-appointment-scheduling-system-allowing-staff-to-book-view-and-manage-patient-appointments-with-date-time-and-appointment-type",
+      "title": "Implement appointment scheduling system allowing staff to book, view, and manage patient appointments with date, time, and appointment type",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-medical-records-management-system-where-doctors-can-add-visit-notes-diagnoses-and-prescriptions-for-each-patient-appointment",
+      "title": "Build a medical records management system where doctors can add visit notes, diagnoses, and prescriptions for each patient appointment",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-clean-professional-frontend-interface-with-a-modern-medical-theme-using-calming-green-and-white-color-palette-clear-typography-suitable-for-healthcare-professionals-and-an-intuitive-dashboard-layout-with-easy-navigation-between-patients-appointments-and-records-sections",
+      "title": "Design a clean, professional frontend interface with a modern medical theme using calming green and white color palette, clear typography suitable for healthcare professionals, and an intuitive dashboard layout with easy navigation between patients, appointments, and records sections",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-clinic-related-images-including-medical-icons-and-healthcare-themed-graphics-as-static-assets-in-frontend-public-assets-generated",
+      "title": "Render generated clinic-related images including medical icons and healthcare-themed graphics as static assets in frontend/public/assets/generated",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-application-title-in-frontend-index-html-to-display-mannosalva-clinic-app-in-the-browser-tab",
+      "title": "Update the application title in frontend/index.html to display 'Mannosalva Clinic App' in the browser tab",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-application-branding-in-layout-tsx-header-to-display-mannosalva-clinic-app-as-the-main-application-name",
+      "title": "Update the application branding in Layout.tsx header to display 'Mannosalva Clinic App' as the main application name",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-login-page-branding-in-loginpage-tsx-to-show-mannosalva-clinic-app-as-the-application-name",
+      "title": "Update the login page branding in LoginPage.tsx to show 'Mannosalva Clinic App' as the application name",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-footer-branding-in-layout-tsx-to-reference-mannosalva-clinic-app-consistently",
+      "title": "Update the footer branding in Layout.tsx to reference 'Mannosalva Clinic App' consistently",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Build clinic app",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Mannosalva Clinic App",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
